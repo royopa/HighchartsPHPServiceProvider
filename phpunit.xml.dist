@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="HighchartsPHP Service Provider Test Suite">
+            <directory>./tests/Royopa/Silex/Provider/Ghunti/HighchartsPHP</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>./src/Royopa/Silex/Provider/Ghunti/HighchartsPHP</directory>
+        </whitelist>
+    </filter>
+</phpunit>

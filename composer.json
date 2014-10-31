@@ -1,0 +1,22 @@
+{
+    "name": "royopa/highchartsphp-service-provider",
+    "description": "HighchartsPHP Service Provider to use with Silex microframework",
+    "homepage": "http://github.com/royopa/HighchartsPHPServiceProvider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Prado de Jesus",
+            "email": "royopa@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silex/silex": "~1.1",
+        "ghunti/highcharts-php": "~3.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Royopa\\Silex\\Provider\\Ghunti\\HighchartsPHP;" : "src/"
+        }
+    }
+}
